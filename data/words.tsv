@@ -1,0 +1,16 @@
+# word<TAB>kana
+# Whole words, matched only with no letter or katakana on either side.
+# They run right after case folding, before every other rule, so they win over the
+# letter by letter conversion. Used for は read as wa.
+
+# the topic particle on its own
+wa	は
+
+# set phrases with a fused particle
+konnichiwa	こんにちは
+konbanwa	こんばんは
+dewa	では
+mataha	または
+aruiwa	あるいは
+moshikuwa	もしくは
+sorewa	それは
